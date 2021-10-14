@@ -26,7 +26,7 @@ export default function Repositories() {
                 <h1><strong>These are the repositories that I have worked with</strong></h1>
                     {repo.map((info,index)=>{
                         return(
-                            <div class="content is-medium ">
+                            <div className="content is-medium ">
                                 <ul>
                                     <li><a href={`${info.html_url}`}>{`${info.name}`}</a></li>
 

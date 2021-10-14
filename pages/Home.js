@@ -35,22 +35,22 @@ export default function Home() {
       </head>
      <Header/>
      <body className={styles.color} >
-      <section class="section" >
-        <h1 class="title" className={styles.title}>Welcome to my page </h1>
+      <section className="section" >
+        <h1 className="title" className={styles.title}>Welcome to my page </h1>
       </section>
       <section >
         <span>
-          <div class="card" className={styles.card}>
-            <div class="card-content">
-              <div class="content" >"When something is important enough, you do it even if the odds are not in your favor."</div>
+          <div className="card" className={styles.card}>
+            <div className="card-content">
+              <div className="content" >"When something is important enough, you do it even if the odds are not in your favor."</div>
               <p>-Elon Musk</p>
             </div>
           </div>
         </span>
-        <span className>
-          <div class="card" className={styles.card}>
-            <div class="card-content">
-              <div class="content">
+        <span >
+          <div className="card" className={styles.card}>
+            <div className="card-content">
+              <div className="content">
               "Don't compare yourself with anyone in this world ... if you do so, you are insulting yourself."
               </div>
               <p>-Bill gates</p>
@@ -60,8 +60,8 @@ export default function Home() {
       </section>
 
 
-      <footer class="footer container">
-        <div class="content has-text-centered is-flex">
+      <footer className="footer container">
+        <div className="content has-text-centered is-flex">
           <span>
           <figure className="image is-128x128">
             <img src={avatarUrl} />

@@ -3,30 +3,30 @@ import { Batman,Twitter, Linkedin,Vsco} from '/public/assets'
 
 export const Header = () => {
     return(
-        <nav class="navbar is-black navbar-brand" role="navigation" aria-label="main navigation" >
-        <div class="navbar-brand">
-            <div class="navbar-item " >
+        <nav className="navbar is-black navbar-brand" role="navigation" aria-label="main navigation" >
+        <div className="navbar-brand">
+            <div className="navbar-item " >
             <Image src={`${Batman}`} width="100" height="50" />  
             
             </div>
 
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             </a>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-            <a class="navbar-item text" href="/Home">
+        <div id="navbarBasicExample" className="navbar-menu">
+            <div className="navbar-start">
+            <a className="navbar-item text" href="/Home">
                 Home
             </a>
-            <a class="navbar-item text" href="/Repositorie">
+            <a className="navbar-item text" href="/Repositorie">
                 Public Repositories
             </a>
 
-            <a class="navbar-item" href='/About'>
+            <a className="navbar-item" href='/About'>
                 About
             </a>
             </div>
