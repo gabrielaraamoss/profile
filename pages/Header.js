@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import { Batman,Twitter, Linkedin} from '/public/assets'
+import { Batman,Twitter, Linkedin,Vsco} from '/public/assets'
 
 export const Header = () => {
     return(
-        <nav class="navbar is-black" role="navigation" aria-label="main navigation" >
+        <nav class="navbar is-black navbar-brand" role="navigation" aria-label="main navigation" >
         <div class="navbar-brand">
             <div class="navbar-item " >
             <Image src={`${Batman}`} width="100" height="50" />  
@@ -32,10 +32,14 @@ export const Header = () => {
             </div>
         </div>
 
-        <div >
-            <a href="https://twitter.com/gabrielaraamoss"><Image src={`${Twitter}`} width="30" height="30" /></a>
-            <a href="https://www.linkedin.com/in/gabriela-ramos-74b98a15a/"><Image src={`${Linkedin}`} width="30" height="30"/></a>
-        </div>
+            <div className="navbar-item" >
+                <a href="https://twitter.com/gabrielaraamoss" ><span className="icon is-medium"><Image src={`${Twitter}`} width="30" height="30"  /></span></a>
+            </div>
+        
+            <div className="navbar-item" >
+                <a href="https://www.linkedin.com/in/gabriela-ramos-74b98a15a/"><span className="icon is-medium"><Image src={`${Linkedin}`} width="30" height="30"/></span></a>
+            </div>
+
         </nav>
     )
 }
